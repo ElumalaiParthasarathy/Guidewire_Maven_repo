@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="loginCases" verbose ="2" parallel="methods">
+<test name="logintestcases">
+<classes>
+<class name="TestCases.LoginPageTest">
+</class>
+<class name="TestCases.AccountCreationPageCases"></class>
+</classes>
+ </test>
+</suite>
