@@ -5,9 +5,14 @@
     <classes>
       <class name="TestCases.AccountCreationPageCases">
         <methods>
-          <include name="createAccountWithAllMandatory" invocation-numbers="0"/>
+          <include name="searchFunctionCase" invocation-numbers="1"/>
         </methods>
       </class> <!-- TestCases.AccountCreationPageCases -->
+      <class name="TestCases.LoginPageTest">
+        <methods>
+          <include name="invalidLogin"/>
+        </methods>
+      </class> <!-- TestCases.LoginPageTest -->
     </classes>
   </test> <!-- logintestcases(failed) -->
 </suite> <!-- Failed suite [loginCases] -->
