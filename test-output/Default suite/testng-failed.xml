@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestCases.AccountCreationPageCases">
+      <class name="testCases.GWPolicyFlatCancelTestCase">
         <methods>
-          <include name="searchFunctionCase" invocation-numbers="0"/>
+          <include name="invalidLoginWithPwd"/>
+          <include name="invalidLoginWithUser"/>
+          <include name="validLogin" invocation-numbers="1 2"/>
         </methods>
-      </class> <!-- TestCases.AccountCreationPageCases -->
+      </class> <!-- testCases.GWPolicyFlatCancelTestCase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
